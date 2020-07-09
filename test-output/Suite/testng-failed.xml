@@ -8,11 +8,6 @@
           <include name="userDataAPITest"/>
         </methods>
       </class> <!-- testCases.TestAPI_003 -->
-      <class name="testCases.TestAPI_004">
-        <methods>
-          <include name="getWeatherAPIReport"/>
-        </methods>
-      </class> <!-- testCases.TestAPI_004 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

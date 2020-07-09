@@ -1,7 +1,11 @@
 package testCases;
 
+import java.io.IOException;
+
 import org.testng.annotations.Test;
 
+import base.Base;
+import base.EndPointURL;
 import pojoClass.CreateUser;
 import pojoClass.EmployeeData;
 import pojoClass.GetAllUsers;
@@ -12,13 +16,12 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 
-public class TestAPI_001 {
+public class TestAPI_001 extends Base{
 		
 	@Test
-	public void getTest(){
+	public void getTest() throws IOException{
 		
-		RestAssured.baseURI="https://reqres.in/";
-		
+		getBaseURLResReq();
 		CreateUser cu = new CreateUser();
 		cu.setName("Mehul");
 		cu.setJob("Team Lead");
@@ -28,7 +31,7 @@ public class TestAPI_001 {
 	    // Post Method used POJO class to create JSON, 
 		given().log().all().
 		body(cu).
-		when().post("api/users").
+		when().post(EndPointURL.getAPIUsers).
 		then().assertThat().log().all().
 		statusCode(201).extract().response().
 		asString();
