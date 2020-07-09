@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 1.076 s <<< FAILURE! - in TestSuite
+testCases.TestAPI_001.getTest  Time elapsed: 0.312 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at testCases.TestAPI_001.getTest(TestAPI_001.java:20)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.logging.LogFactory
+	at testCases.TestAPI_001.getTest(TestAPI_001.java:20)
+
+testCases.TestAPI_002.getData  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at testCases.TestAPI_002.getData(TestAPI_002.java:12)
+
+testCases.TestAPI_003.userDataAPITest  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at testCases.TestAPI_003.userDataAPITest(TestAPI_003.java:20)
+
+testCases.TestAPI_004.getWeatherAPIReport  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at testCases.TestAPI_004.getWeatherAPIReport(TestAPI_004.java:16)
+

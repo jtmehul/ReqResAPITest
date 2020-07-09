@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="testCases.TestAPI_001">
+        <methods>
+          <include name="getTest"/>
+        </methods>
+      </class> <!-- testCases.TestAPI_001 -->
+      <class name="testCases.TestAPI_004">
+        <methods>
+          <include name="getWeatherAPIReport"/>
+        </methods>
+      </class> <!-- testCases.TestAPI_004 -->
+      <class name="testCases.TestAPI_002">
+        <methods>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- testCases.TestAPI_002 -->
+      <class name="testCases.TestAPI_003">
+        <methods>
+          <include name="userDataAPITest"/>
+        </methods>
+      </class> <!-- testCases.TestAPI_003 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
