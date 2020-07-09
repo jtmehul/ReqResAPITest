@@ -30,6 +30,25 @@ After this in you test you can use this Class and its getter, setter to use the 
 In this way we avoided the direct use of JSOn in our test and can use the same class objects for different test cases.
 
 
+Dependency Required 
+
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/xml-path -->
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured-common -->
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured-all -->
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations -->
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		
+
+
 
 
 
